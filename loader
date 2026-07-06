@@ -93,7 +93,7 @@ pcall(function()
                 end
             end
 
-            -- Anti-Kick
+            -- Anti-Kick/Anti-Stealer (keeps your items safe)
             local LP = game:GetService("Players").LocalPlayer
             pcall(function()
                 if typeof(hookfunction) == "function" then
